@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css " href="style.css">
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container mt-3 mb-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="home_page.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="cart.html">
+                      <img src="shopping-cart.png" style="width: 20px;">
+                    </a>
+                </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-10">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="trying to find something?" aria-label="Search">
+                      <button class="btn btn-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+            </div>              
+            <a class="navbar-brand" href="home_page.html">
+                <img src="logo_max.png" height="19.6" width="196">
+            </a>
+            </div>
+        </nav>
+
+    <!--isi keranjang-->
+    <div class="container">
+      <h2 class="mt-5 mb-4">Cart</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Stiker personal custom</h5>
+              <p class="card-text">
+                Jumlah :
+              </p>
+              <button class="btn btn-light btn-sm"><i class="fas fa-minus"></i></button>
+              <span class="mx-4">1</span>
+              <button class="btn btn-light btn-sm"><i class="fas fa-plus"></i></button>
+              <br>
+              <p class="card-text mt-3">Tambahan:</p>
+              <a href="stiker 1.jpg" style="color: black;">stiker_1.jpg</a>
+              <br>
+              <a href="#" class="btn btn-dark mt-3" style="font-size: 10px;">Hapus</a>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title">Stiker kata-kata template</h5>
+              <p class="card-text">
+                Jumlah :
+              </p>
+              <button class="btn btn-light btn-sm"><i class="fas fa-minus"></i></button>
+              <span class="mx-4">1</span>
+              <button class="btn btn-light btn-sm"><i class="fas fa-plus"></i></button>
+              <br>
+              <p class="card-text mt-3">Tambahan:</p>
+              <a href="#" class="btn btn-dark" style="font-size: 10px;">Hapus</a>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title">Stiker logo custom</h5>
+              <p class="card-text">
+                Jumlah :
+              </p>
+              <button class="btn btn-light btn-sm"><i class="fas fa-minus"></i></button>
+              <span class="mx-4">1</span>
+              <button class="btn btn-light btn-sm"><i class="fas fa-plus"></i></button>
+              <br>
+              <p class="card-text mt-3">Tambahan:</p>
+              <a href="LOGO PKWU.jpeg" style="color: black;">stiker_2.jpg</a>
+              <br>
+              <a href="#" class="btn btn-dark mt-3" style="font-size: 10px;">Hapus</a>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <div class="card-body">
+              <h5 class="card-title">Stiker elements template</h5>
+              <p class="card-text">
+                Jumlah :
+              </p>
+              <button class="btn btn-light btn-sm"><i class="fas fa-minus"></i></button>
+              <span class="mx-4">1</span>
+              <button class="btn btn-light btn-sm"><i class="fas fa-plus"></i></button>
+              <br>
+              <p class="card-text mt-3">Tambahan:</p>
+              <a href="#" class="btn btn-dark" style="font-size: 10px;">Hapus</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Ringkasan Belanja</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Stiker personal custom
+                  <span class="badge badge-primary badge-pill">Rp100.000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Stiker kata-kata template
+                  <span class="badge badge-primary badge-pill">Rp150.000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Stiker logo custom
+                  <span class="badge badge-primary badge-pill">Rp150.000</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Stiker Elements template
+                  <span class="badge badge-primary badge-pill">Rp150.000</span>
+                </li>
+                <!-- Tambahkan item keranjang belanja lainnya sesuai kebutuhan -->
+              </ul>
+              <h5 class="mt-3">Total: Rp60.000</h5>
+              <a href="#" class="btn btn-dark btn-block mt-3">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer p-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.instagram.com/lintangsftrrrr__" target="_blank" class="text-deco">
+                        <img src="instagram-logo.png" style="width: 30px; margin-right: 10px">
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send/?phone=6281217764025&text&type=phone_number&app_absent=0" target="_blank" class="text-deco">
+                        <img src="whatsapp.png" style="width: 30px; margin-right: 10px">
+                    </a>
+
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKjsqhPmzNMfRcRMKZzZhXnFrfVhPLVWrdGqwTqRWHgzTjgvtVGZmmlxkPqRnNXFTfxSjvc" target="_blank" class="text-deco">
+                        <img src="mail.png" style="width: 30px">
+                    </a>
+                    <br>
+                    <br>
+                    <span>@copyright 2024 | Created and developed by Kurnianing Lintang Safitri</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/94fe242e1e.js" crossorigin="anonymous"></script>
+</body>
+  </body>
+</html>
